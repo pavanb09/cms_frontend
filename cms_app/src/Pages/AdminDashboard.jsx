@@ -179,7 +179,7 @@ const updateStatus = (id) => {
             <tr>
               <th style={th}>ID</th>
               <th style={th}>Title</th>
-              <th sytle={th}>Description</th>
+              <th style={th}>Description</th>
               <th style={th}>Category</th>
               <th style={th}>Status</th>
               <th style={th}>Update</th>
