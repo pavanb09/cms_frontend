@@ -179,6 +179,7 @@ const updateStatus = (id) => {
             <tr>
               <th style={th}>ID</th>
               <th style={th}>Title</th>
+              <th sytle={th}>Description</th>
               <th style={th}>Category</th>
               <th style={th}>Status</th>
               <th style={th}>Update</th>
@@ -190,6 +191,7 @@ const updateStatus = (id) => {
               <tr key={c.id}>
                 <td style={td}>{c.id}</td>
                 <td style={td}>{c.title}</td>
+                <td style={td}>{c.description}</td>
                 <td style={td}>{c.category}</td>
 
                 <td
